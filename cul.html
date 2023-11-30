@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="cul.css">
+
+
+</head>
+<body>
+
+	<div class="whl">
+
+
+		<div class="cal">
+
+
+
+
+			<div class=" r1 inp">
+				<input type="text" name="display" class="display" placeholder="" id="display" readonly>
+			</div>
+
+			<div class="r2">
+				<button class="btn" id="btn" onclick="display.value=display.value.toString().slice(0,-1)">CE</button>
+				<button class="btn" id="btn" onclick="display.value=Math.pow(display.value,1/3)">x/3</button>
+				<button class="btn" id="btn" onclick="display.value+='('">(</button>
+				<button class="btn" id="btn" onclick="display.value+=')'">)</button>
+				<button class="btn" id="btn" onclick="display.value+='%'">%</button>
+				<button class="btn" id="btn"  onclick="display.value=''">AC</button>
+			</div>
+
+
+			<div class="r3">
+				<button class="btn" id="btn" onclick="display.value=Math.sin(display.value * Math.PI/180)">sin</button>
+				<button class="btn" id="btn" onclick="display.value=Math.PI">pi</button>
+				<button class="btn" id="btn" onclick="display.value+='7'">7</button>
+				<button class="btn" id="btn" onclick="display.value+='8'">8</button>
+				<button class="btn" id="btn" onclick="display.value+='9'">9</button>
+				<button class="btn" id="btn" onclick="display.value+='/'">/</button>
+			</div>
+
+			<div class="r4">
+				<button class="btn" id="btn" onclick="display.value=Math.cos(display.value * Math.PI/180)">cos</button>
+				<button class="btn" id="btn" onclick="display.value=Math.Log(display.value)">log</button>
+				<button class="btn" id="btn" onclick="display.value+='4'">4</button>
+				<button class="btn" id="btn" onclick="display.value+='5'">5</button>
+				<button class="btn" id="btn" onclick="display.value+='6'">6</button>
+				<button class="btn" id="btn" onclick="display.value+='*'">*</button>
+			</div>
+
+
+			<div class="r5">
+				<button class="btn" id="btn" onclick="display.value=Math.tan(display.value * Math.PI/180)">tan</button>
+				<button class="btn" id="btn" onclick="display.value=Math.sqrt(display.value,1/2)">root</button>
+				<button class="btn" id="btn" onclick="display.value+='1'">1</button>
+				<button class="btn" id="btn" onclick="display.value+='2'">2</button>
+				<button class="btn" id="btn" onclick="display.value+='3'">3</button>
+				<button class="btn" id="btn" onclick="display.value+='-'">-</button>
+			</div>
+
+
+			<div class="r6">
+				<button class="btn" id="btn" onclick="display.value=Math.pow(display.value,2)">x^2</button>
+				<button class="btn" id="btn" onclick="display.value=Math.pow(display.value,3)">x^3
+				<button class="btn" id="btn" onclick="display.value+='0'">0</button>
+				<button class="btn" id="btn" onclick="display.value+='.'">.</button>
+				<button class="btn" id="btn" onclick="display.value=eval(display.value)">=</button>
+				<button class="btn" id="btn" onclick="display.value+='+'">+</button>
+			</div>
+
+
+
+		</div>
+
+
+	</div>
+
+	<script type="text/javascript">
+		function fis
+		
+
+
+	</script>
+
+</body>
+</html>
